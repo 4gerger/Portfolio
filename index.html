@@ -2,38 +2,50 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Activity 1: Basic HTML Bio</title>
+    <title>About G</title>
+    <link href="Assets/css/style.css" type="text/css" rel='stylesheet'/>
   </head>
-  <body>
+  <body class="body">
     <!-- Site Header -->
-    <header>
-      <!-- h1: The most important headline -->
-      <h1>Student Bio</h1>
+    <header class="header">
+      <figure class="navbar">
+        <!-- My Name -->
+        <h1 class="maintab">Gerald Lam</h1>
+        <!-- Navigation Bar -->
+        <h2 class="about"><a href="./index.html">About</a></h2>
+        <h2 class="portfolio"><a href="./portfolio.html">Portfolio</a></h2>
+        <h2 class="contact"><a href="./contact.html">Contact</a></h2>
+      </figure>
     </header>
-    <div class="container">
-      <!-- Section 1: Bio -->
-      <section id="main-bio">
-        <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-        <h2>Your Name</h2>
-        <!-- Image with link -->
-        <img src="https://placehold.it/200x200" 
-        alt="Your Name"
-        id="bio-image"
+      <!-- Manage Content Space for Footer -->
+    <div class="wrapper">
+      <section class="container">
+        <!-- About Me Heading -->
+        <h2>About Me</h2>
+        <hr>
+        <!-- Profile Pic with path to file -->
+        <img id="profilepic" src="Assets/Images/Profile.png"
+            height="200"
+            width="200"
+            alt="Profile Pic"
         >
-        <!-- Paragraph with embedded link -->
-        <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-      </section>
-      <!-- Section 2: Contact Info -->
-      <section id="contact-info">
-        <!-- h2: Tier-2 Headline -->
-        <h2>Contact Info</h2>
-        <!-- Unordered list -->
-        <ul>
-          <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-          <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-          <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-        </ul>
+        <!-- About Me Info -->
+        <p> 
+          Hi there! My name is Gerald and I'm from Sydney Australia. I have worked at HSBC Bank Australia as 
+          a Relationship Manager for the last 3 years which involves servicing and building a portfolio of 
+          high net worth clients. In 2019, I decided to embark on an exciting journey to learn about the 
+          world of coding to satisfy a personal interest. If these new technical skills can be applied to 
+          further my career that would be an added bonus. <br><br><br>
+          <em>"The first and greatest victory is to conquer yourself; to be conquered by yourself is of all 
+          things most shameful and vile." - Plato</em>
+        </p>
+        <!-- "push" - To Manage the Footer -->
+        <div class="push"></div>
       </section>
     </div>
+      <!-- Site Footer -->
+      <footer class="footer">
+        Copyright &copy; 2019. GLam
+      </footer>
   </body>
 </html>
