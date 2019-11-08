@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 25%;
+    max-width: 40%;
+}
+
+.column img{
+    vertical-align: middle;
+    height: 180px;
+    width: 320px;
+}
+
+.portfoliotext{
+    position: relative;
+    width: 320px;
+    height: 40px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+}
